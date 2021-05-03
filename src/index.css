@@ -1,3 +1,109 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 	
+}
+
+	
+.brand {
+    color: #928888;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5rem;		
+}
+
+.logo{
+	color: #dc8787;
+	font-size: 1rem;
+}
+.head-top{
+	color:#d2cbd1;
+	margin-left: 4rem;
+	margin-right: 5rem;
+}
+.phone{
+	top: 1rem;
+	position: relative;
+	display: inline;
+	left:3.5rem;
+}
+
+.email{
+	top: 1rem;
+	display: inline;
+	position: relative;
+	float: right;
+	right: 2.7rem;
+}
+
+.adv{
+	margin-top:15rem;
+	margin-left: 6rem;
+	color: white;
+}
+
+.button-1{
+	margin-top: 1.5rem;
+	background: none;
+	text-decoration: none;
+	border-color: #d43620;
+	border: none;
+	background-color: #d43620;
+	border-radius: 4rem;
+	font-size: 1rem;
+	padding: 0.5rem;
+	color: #e2d9d9;
+	outline-color: black;
+}
+.para2{
+	top: 2rem;
+	position: relative;
+	margin-left :20rem;
+	margin-right :20rem;
+}
+
+.content-1{
+		color: white;
+		margin-top: 10rem;
+		text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+	.head-top{
+			color:white;
+			margin-left: 0rem;
+			margin-right: 0rem;
+}
+	.email{
+		font-size: 0.8rem;
+		top: 0.5rem;
+	}
+	.phone{
+		float: left;
+		font-size: 0.8rem;	
+	}
+	.para2{
+		text-align: center;
+		margin: 1px;		
+	}
+	.adv{
+		text-align: center;
+		margin-left: 0;
+		margin-top: 4rem;
+	}
+	.adv h3{
+		font-size: 1rem;
+		margin:1rem;
+	}
+	.content-1{
+		margin-top: 3rem;
+	}
+	.Navbar{
+		margin-top: 5rem;
+		text-align: center; 				
+		float: left;
+		
+	}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +116,5 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
 }
